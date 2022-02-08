@@ -1,0 +1,523 @@
+<!doctype html>
+<html >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ma boutique en ligne</title>
+       <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo.jfif">
+       <!--animation-->
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <nav class="banda fix">
+
+        <div><a href="#"><img src="assets/img/logo/logo.jfif" alt="" height="100" width="210"></a></div>
+       <div class="nav">
+          <ul >
+            <li><a href="index.html"> <i class="fas fa-home fa-lg"></i> Home</a></li>
+                      <li><a href="#fifth-section"><i class="fas fa-question-circle fa-lg "></i> A propos de nous  </a></li>
+                      <li><a href="#fin"><i class="fas fa-envelope fa-lg"></i> Contacter Nous</a></li>
+                       </ul>
+  
+      </div>
+     </nav>
+      <section id="First-section">
+        <div class="container3">
+          
+          
+          <div class="barre"> <h2>Offre de fin d'année  | Jusqu'a -50% </h2></div>
+  
+          <div class="prod">
+      
+          </div>
+      
+  
+          </div>
+      </section> 
+
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.jfif"  >
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="ti">Ma boutique en ligne</h1>
+   
+    <div class="container5" data-aos="fade-up">
+        <div class="articles">
+            <div>
+                <img src="assets/img/gallery/1.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand1">  Ours En Peluche</h4>
+                    <h3 id="price1">19.90</h3>
+                    <h3>€</h3>
+                </div>
+            
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+             
+         
+                <span style="color:#000000;">
+                    <strong> 
+                       un nounous blanc tout doux <br> 
+                        <span id="dots1">...</span><span id="more1">
+                            taille: 120cm                     
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction1()" id="myBtn1">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity1" name="quantity1" min="0" max="9" value="0">
+
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(1)">Add</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <img src="assets/img/gallery/Orange.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand2">Nounours  Orange</h4>
+                    <h3 id="price2">16.90</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> caractéristiques:</strong><br></span>
+             
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Nettoyage facile <br> Donne la sécurité  
+                        <span id="dots2">...</span><span id="more2">
+                            Compagnon amoureux                      
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction2()" id="myBtn2">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity2" name="quantity2" min="0" max="9" value="0">
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(2)">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="assets/img/gallery/Nounoursx.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand3">Nounours géant</h4>
+                    <h3 id="price3">29.90</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+             
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Taille : 120 cm <br> 
+                        <span id="dots3">...</span><span id="more3">
+                            Tout âge                    
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction3()" id="myBtn3">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity3" name="quantity3" min="0" max="9" value="0">
+               
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(3)">Add</button>
+                    </div>
+                </div>
+            </div>
+     
+        </div>
+      
+        <div class="cart">
+            <form class="example" action="index.html">
+                <input type="text" placeholder="Recherche des produits ..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form><br><br>
+            <h3 class="tit" id="total"> Total du panier : 0€</h3>
+            <ul id="items">
+            </ul> 
+           
+        </div>
+       
+    </div>
+    
+    <!--section 2-->
+    <div class="container5"data-aos="fade-up" >
+        <div class="articles">
+            <div>
+                <img src="assets/img/gallery/Nounoursclé.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand4">Porte-Clés Nounours</h4>
+                    <h3 id="price4">16.90</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Original et tout mignon<br> 
+                        <span id="dots4">...</span><span id="more4">
+                            De très bonne compagnie <br>
+                            Taille : 20cm                 
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction4()" id="myBtn4">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity4" name="quantity4" min="0" max="9" value="0">
+
+                    
+                    <div>
+                        <button class="addTo" onclick="add(4)">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="assets/img/gallery/peluche.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand5">peluche</h4>
+                    <h3 id="price5">16.90</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Peluche géant.<br> 30 cm.<br>
+                        <span id="dots5">...</span><span id="more5">
+                            Blanc               
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction5()" id="myBtn5">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity5" name="quantity5" min="0" max="9" value="0">
+                    
+                    <div>
+                        <button class="addTo" onclick="add(5)">Add</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img src="assets/img/gallery/Ours En Peluche.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand6">Ours En Peluche</h4>
+                    <h3 id="price6">17</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> caractéristiques:</strong><br></span>
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Lavage au main.<br> Finition<br>
+                        <span id="dots6">...</span><span id="more6">
+                            Meilleur qualité        
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction6()" id="myBtn6">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity6" name="quantity6" min="0" max="9" value="0">
+                    <select id="size6" name="size3" onclick="deleteE('message3')">
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(6)">Add</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+  
+    </div>
+
+      <!--section 3-->
+      <div class="container5" data-aos="fade-up">
+        <div class="articles">
+            <div>
+                <img src="assets/img/gallery/Nounours.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand7">Nounours</h4>
+                    <h3 id="price7">20</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Peluche douce<br> 
+                        <span id="dots7">...</span><span id="more7">
+                            Peluche orange       
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction7()" id="myBtn7">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity7" name="quantity7" min="0" max="9" value="0">
+                 
+                    <div>
+                        <button class="addTo" onclick="add(7)">Add</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <img src="assets/img/gallery/Porte.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand8">Clé Porte</h4>
+                    <h3 id="price8">5</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+         
+                <span style="color:#000000;">
+                    <strong> 
+                        Matériel: résine<br> 
+                        <span id="dots8">...</span><span id="more8">
+                            De très bonne compagnie        
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction8()" id="myBtn8">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity8" name="quantity8" min="0" max="9" value="0">
+                   
+                    <div>
+                        <button class="addTo" onclick="add(8)">Add</button>
+                    </div>
+                </div>
+                <p id="message4"></p>
+            </div>
+            <div>
+                <img src="assets/img/gallery/Mini.jpg">
+                <div class="prod">
+                    <h4 class="tit" id="brand9">Nounous blanc</h4>
+                    <h3 id="price9">21</h3>
+                    <h3>€</h3>
+                </div>
+                <span style="color:#4255A4;"><strong> Caractéristiques:</strong><br></span>
+             
+         
+                <span style="color:#000000;">
+                    <strong> 
+                            Matériel: résine <br>
+                        <span id="dots9">...</span><span id="more9">
+                            Matériel: résine   <br>  Le cadeau parfait                
+                      </span></span>
+                           </strong> 
+                               <span onclick="myFunction9()" id="myBtn9">Lire la suite</span><br>
+                <div class="inputs">
+                    <input type="number" id="quantity9" name="quantity9" min="0" max="9" value="0">
+                  
+                    <div>
+                        <button class="addTo" onclick="add(9)">Add</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+  
+    </div>
+
+
+<section id="fifth-section">
+    <div class="container3">
+        <div class="about-us">
+            <h3 style="color:rgb(255, 255, 255)";>A propos de Nous</h3>
+            <p>Découvrez Ma boutique d'achat de vente en ligne au Maroc, 
+                des produits spécialement sélectionnés pour vous ! Sur Ma boutique,
+                 nous vous proposons un large choix de produits parmi
+                  les plus grandes marques aux meilleurs prix, 
+                  d'une qualité exceptionnelle et contrôlée :
+                    Retrouvez la liste de nos meilleures marques 
+                    en faisant un tour sur notre site de nounous en ligne,
+                     
+            </p>
+        </div>
+
+
+
+
+    <div class="contact"  id="fin">
+        <h3 style="color:rgb(255, 255, 255)";>Contacter Nous</h3>
+        <form action="index.html" method="post">
+             <label>Nom &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label> <input type="text" name="nom"><br>
+             <label>Prenom  &nbsp&nbsp&nbsp</label> <input type="text" name="prenom" ><br>
+             <label>E-mail  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label> <input type="text" name="email"><br>
+             <label>Message   &nbsp&nbsp</label>
+             <textarea name="message"></textarea><br>
+            <input type="submit" onClick="envoyer()" value="submit" name="Envoyer">
+        </form>
+       
+    </div>
+    </div>
+
+
+</section>
+
+
+<footer>
+    <div class="container3">
+        <h3 style="color:rgb(255, 255, 255);">Merci pour votre visite </h3>
+        <b> By : Fadel Mohammed </b> </br>
+        <b> Copyright &copy;  Ma boutique 2022  </b>
+    </div>
+</footer>
+
+<script language="javascript">
+function envoyer(){
+    swal({
+    title:"Message envoyeé !",
+    icon:"success",
+    buttons:"Ok",
+    timer:"3500"
+    }) 
+}
+</script>
+             
+<script>
+        
+    // Cost of all products in the cart
+    var total = 0;
+    // Index
+    var i = 0; 
+
+    // List of the amount of every product in the cart
+    var itemCost = [];
+
+    // Add to cart
+    function add(n){
+
+        // Getting all Id of the selected shirt(brand ex: nike, price and quantity)
+        brand = "brand" + n;
+        priceId = "price" + n;
+        quantityId = "quantity" + n;
+        // Getting details of the selected shirt
+        // brand
+        name = document.getElementById(brand).innerHTML;
+        // price
+        price = document.getElementById(priceId).innerHTML;
+        // quantity
+        quantity = document.getElementById(quantityId).value;
+        // Creating a li element to add it to ul 
+        var node = document.createElement("LI");
+        // id of li element
+        item = "item"+i;
+        node.setAttribute("id", item)
+        // cost of the selected shirt
+        itemCost[i-1] = Number(price) * Number(quantity);
+        // Updating the index i 
+        i += 1;
+      
+          
+        // text of the li element
+        var textnode = document.createTextNode(name+" "+quantity+" x "+price+" €");
+        // add the text to li element
+        node.appendChild(textnode);
+        // add li element to ul list
+        document.getElementById("items").appendChild(node);
+
+        total += Number(price) * Number(quantity);
+        // update the total
+        document.getElementById("total").innerHTML = "Total du panier: " + total.toFixed(2) + " €";
+        
+        // Add a remove button 
+        document.getElementById(item).innerHTML += '<button onclick="deleItem('+"'"+item+"'"+')">x</button>';
+        // you have to respect the order of: '' and ""
+        
+    }
+
+     // delete message when the select element is clicked
+     function deleteE(eId) {
+        document.getElementById(eId).innerHTML = ' ';
+    }
+
+    // Remove a product from the cart
+    function deleItem(eId){
+        document.getElementById(eId).remove();
+        // slice is string method
+        // eId (element Id) contain root + number (ex: item4)
+        // n is the number in eId 
+        n = Number(eId.slice(-1)) - 1;
+        // remove the cost of the product deleted from the cart
+        total -= itemCost[n];
+        // Updating the cost of products in the cart
+        document.getElementById("total").innerHTML = "Total du panier: " + total.toFixed(2) + " €"; 
+    }
+</script>
+ 
+  <!-- Scroll Up -->
+  <div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- JS here -->
+
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
+
+<!-- Date Picker -->
+<script src="./assets/js/gijgo.min.js"></script>
+<!-- Nice-select, sticky -->
+<script src="./assets/js/jquery.nice-select.min.js"></script>
+<script src="./assets/js/jquery.sticky.js"></script>
+
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="./assets/js/jquery.counterup.min.js"></script>
+<script src="./assets/js/waypoints.min.js"></script>
+<script src="./assets/js/jquery.countdown.min.js"></script>
+<script src="./assets/js/hover-direction-snake.min.js"></script>
+
+
+<!-- Jquery Plugins, main Jquery -->	
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/script.js"></script>
+<style>
+    #more1{display: none;} 
+     #more2{display: none;}
+     #more3{display: none;}
+     #more4{display: none;}
+     #more5{display: none;}
+     #more6{display: none;}
+     #more7{display: none;} 
+     #more8{display: none;}
+     #more9{display: none;}
+     #more10{display: none;}
+     #more11{display: none;}
+
+    </style>
+</body>
+</html>
